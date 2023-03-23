@@ -1,12 +1,10 @@
-# Random Sample Consensus (RANSAC)
-This repository provides a Jupyter notebook to show RANSAC. 
+# PyTorch Deep Learning Example
+This repository provides a Jupyter notebook to show a PyTorch deep learning example. 
 
-Click on [main](/main.ipynb) to see the notebook. Four images are provided for testing, but you are encouraged to use your own and experiment with the code.
+Click on [main](/main.ipynb) to see the notebook. 
 
 # Installing
+A yaml file with my PyTorch environment configuration is provided.
 ```bash
-conda create -n conv python=3.9
-conda activate conv
-conda install -c anaconda jupyter
-conda install Pillow numpy scipy opencv
+conda env create -f environment.yml
 ```
